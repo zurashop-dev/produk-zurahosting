@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ecf9f9;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #2980b9, #6dd5fa);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.wave svg {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+
+.promo-banner {
+  background-color: #1abc9c;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.promo-banner .btn {
+  background-color: white;
+  color: #1abc9c;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.promo-banner .btn:hover {
+  background-color: #16a085;
+  color: white;
+}
+
+.produk-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #ecf9f9;
+}
+
+.produk-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.produk-card:hover {
+  transform: translateY(-10px);
+}
+
+.produk-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.produk-card h3 {
+  color: #2980b9;
+  margin-top: 1rem;
+}
+
+.produk-card p {
+  padding: 0 1rem;
+  font-size: 0.95rem;
+}
+
+.harga {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #16a085;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #1abc9c;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #148f77;
+}
+
+footer {
+  background: #2980b9;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
